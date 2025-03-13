@@ -10,7 +10,7 @@ var tl = gsap.timeline({
 tl.to(
   "#fanta",
   {
-    top: "120%",
+    top: "120%", 
     left: "0%",
   },
   "orange"
@@ -60,7 +60,7 @@ var tl2 = gsap.timeline({
   scrollTrigger: {
     trigger: ".three",
     start: "0% 95%",
-    end: "20% 50%",
+    end: "20% 50%", // fim da animação ( topo da tela atinge 50% da altura quando estiver 20% da secao .three)
     scrub: true,
   },
 });

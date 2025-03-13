@@ -36,6 +36,11 @@ body::-webkit-scrollbar {
   z-index: 99;
 }
 
+#logo {
+  width: 10%;
+  height: 100%;
+}
+
 .nav-container a {
   color: white;
   text-decoration: none;
